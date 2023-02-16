@@ -33,7 +33,7 @@ body {
 ////////////////////////*/
 h1 {
     font-weight: 700;
-    font-size: 120px;
+    font-size: 100px;
 }
 h2 {
     font-weight: 700;
@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 main {
-    width: 60%;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -60,8 +60,9 @@ main {
 
 
 /*///////////// 3.1 Header /////////////*/
+
 header {
-    background: url("../assets/images/mountains.jpg") no-repeat center local;
+    background: url('../assets/images/mountains.jpg') no-repeat center local;
     background-size: 100%;
     text-align: center;
 }
@@ -79,17 +80,14 @@ header {
     border-radius: 50px 0 0 50px;
     outline: none;
 }
-
 .header-input::placeholder {
     color: #1C2B32;
     font-size: 18px;
 }
-
 .header-input:focus::placeholder {
     color: transparent;
 }
-
-.header-btn {
+.header-button {
     margin-top: 32px;
     background-color: #1C2B32;
     color: #ffffff;
@@ -103,14 +101,97 @@ header {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-
+.testimonial-section {
+    margin-block: 64px;
+    position: relative;
+}
+.testimonial-article {
+    padding: 24px 96px 64px 150px;
+    margin-block: 64px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 10px rgba(24, 39, 75, 0.12);
+}
+.testimonial-quote {
+    position: relative;
+    margin-bottom: 50px;
+}
+.testimonial-quote-icon {
+    position: relative;
+    left: -50px;
+    top: 35px;
+}
+.testimonial-avatar {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.testimonial-name {
+    display: inline;
+    margin-left: 20px;
+    font-style: italic;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
-
+.support-section {
+    margin-block: 64px;
+    position: relative;
+}
+.support-image {
+    border-radius: 16px;
+    width: 100%;
+}
+.support-text {
+    margin-block: 24px;
+}
+.support-link {
+    color: #1C2B32;
+    text-decoration-line: underline;
+}
+.support-button {
+    color: #ffffff;
+    background: #1C2B32;
+    padding: 24px 32px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.support-button:hover {
+    background-color: #899CA0;
+    color: #1C2B32;
+    cursor: pointer;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
-
+.faq-section {
+    margin-block: 64px;
+    position: relative;
+}
+.faq-text {
+    padding: 24px 32px;
+    color: #ffffff;
+    background-color: #899CA0;
+    border-radius: 12px;
+}
+.faq-details {
+    margin-block: 24px;
+}
+.faq-summary {
+    margin-bottom: 5px;
+}
+.faq-summary:hover {
+    cursor: pointer;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-section {
+    background-color: #1C2B32;
+    padding-block: 32px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
